@@ -8,6 +8,7 @@ import "./App.css";
 // } from "./repository/RepositoryFactory";
 import { repositories } from "./repository/RepositoryFactory";
 
+//API URL
 const API_URL = "http://localhost:3000/api/expense"; // Correct API URL
 
 const expenses = repositories.expenses;
